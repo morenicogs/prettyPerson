@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TITLE</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+</head>
+<body>
+	<div class="fab-wrapper">
+		<input type="checkbox" name="fab-toggle" class="fab-toggle" />
+		<a class="fab-button" href="#!"><i class="fa fa-plus"></i></a>
+		<div class="fab-actions">
+			<a href="#" title="Add Company" id="fabFormatInput"><i class="fa-solid fa-wand-magic-sparkles"></i></a>
+		</div>
+	</div>
+	<textarea id="codeTextarea" autocorrect="off" spellcheck="false"></textarea>
+	<div id="testCharSize">AAAAAAAAAA<br>AAAAAAAAAA<br>AAAAAAAAAA<br>AAAAAAAAAA<br>AAAAAAAAAA<br>AAAAAAAAAA<br>AAAAAAAAAA<br>AAAAAAAAAA<br>AAAAAAAAAA<br>AAAAAAAAAA</div>
+	<script src="./scripts/preformat.js"></script>
+	<script src="./scripts/format.js"></script>
+	<script src="./scripts/mlStuff.js"></script>
+</body>
